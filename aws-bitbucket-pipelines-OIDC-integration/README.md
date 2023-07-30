@@ -38,3 +38,6 @@ Go to AWS IAM Role and create a new one, use the following values (adjust as nec
 
 **Note:** for the Bitbucket workspace and repository IDs, you will find it from the same page in `Bitbucket repository` -> `Repository settings` -> `Pipelines` -> `OpenID Connect`.
 
+## Links
+- https://support.atlassian.com/bitbucket-cloud/docs/deploy-on-aws-using-bitbucket-pipelines-openid-connect/
+
