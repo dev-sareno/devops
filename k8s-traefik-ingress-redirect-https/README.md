@@ -13,7 +13,7 @@ but in Traefik Ingress, there's no straightforward of doing this unlike Nginx.
 
 To redirect requests to HTTPS permanently, we need to create a Traefik Middleware first, then add annotation to the Traefik Ingress object:
 
-**File: ** `redirect-https.yaml`
+**File:** `redirect-https.yaml`
 ```yaml
 apiVersion: traefik.containo.us/v1alpha1
 kind: Middleware
@@ -26,7 +26,7 @@ spec:
     permanent: true
 ```
 
-**File: ** `ingress.yaml`
+**File:** `ingress.yaml`
 ```yaml
 apiVersion: networking.k8s.io/v1
 kind: Ingress
