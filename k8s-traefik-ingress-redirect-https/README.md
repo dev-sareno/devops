@@ -56,3 +56,8 @@ spec:
     hosts:
     - demo.sareno.dev
 ```
+
+## Links
+- https://doc.traefik.io/traefik/middlewares/overview/
+- https://doc.traefik.io/traefik/middlewares/http/redirectscheme/
+- https://itobey.dev/redirect-http-to-https-traefik-middleware-kubernetes/
