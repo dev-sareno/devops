@@ -2,11 +2,9 @@
 In K8s Nginx Ingress Controller, to force redirect requests to HTTPS, you simple add an annotation to Ingress object:
 ```yaml
 kind: Ingress
-...
-spec:
-  metadata:
-    annotations:
-      nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+metadata:
+  annotations:
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
 ...
 ```
 but in Traefik Ingress, there's no straightforward of doing this unlike Nginx.
