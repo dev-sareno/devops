@@ -4,13 +4,13 @@ For email setups
 ## Google Workspace
 Format: `<priority> <Record>`
 ```
-1 aspmx.l.google.com
-5 alt1.aspmx.l.google.com
-5 alt2.aspmx.l.google.com
-10 aspmx3.googlemail.com
-10 aspmx2.googlemail.com
+1 ASPMX.L.GOOGLE.COM
+5 ALT1.ASPMX.L.GOOGLE.COM
+5 ALT2.ASPMX.L.GOOGLE.COM
+10 ALT3.ASPMX.L.GOOGLE.COM
+10 ALT4.ASPMX.L.GOOGLE.COM
 ```
-or
+or (Recommended)
 ```
 1 smtp.google.com
 ```
